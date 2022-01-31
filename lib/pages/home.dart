@@ -21,11 +21,12 @@ class _HomeState extends State<Home> {
         borderRadius: BorderRadius.only(topLeft: Radius.circular(40), topRight: Radius.circular(40)),
       ),
       child: Scaffold(
-          backgroundColor: Colors.transparent,
-          bottomNavigationBar: getBottomBar(),
-          floatingActionButton: getHomeButton(),
-          floatingActionButtonLocation: FloatingActionButtonLocation.miniCenterDocked,
-          body: getBarPage()),
+        backgroundColor: Colors.transparent,
+        bottomNavigationBar: getBottomBar(),
+        floatingActionButton: getHomeButton(),
+        floatingActionButtonLocation: FloatingActionButtonLocation.miniCenterDocked,
+        body: getBarPage(),
+      ),
     );
   }
 
